@@ -1,12 +1,14 @@
 """
 This script is to be executed in an IDE such as Spyder, PyCharm, etc. for Python 3
-It manipulates a list of names to the format of AWS usernames
+It manipulates a list of names to the format of AWS usernames.
 
 ARGUMENTS:
   file: a text file of names in the format of Lastname, Firstname in each line
   
  OUTPUTS:
   name: a list of names in the format of *FirstnameLastname
+  
+ USE CASES: Splunk lookup tables
 """
 
 file = the_path_of_your_file
